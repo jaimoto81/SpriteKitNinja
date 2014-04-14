@@ -24,6 +24,14 @@
 		6AD70B0A18F9D1C100CA23D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD70AE518F9D1C100CA23D8 /* UIKit.framework */; };
 		6AD70B1218F9D1C100CA23D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B1018F9D1C100CA23D8 /* InfoPlist.strings */; };
 		6AD70B1418F9D1C100CA23D8 /* fortiniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD70B1318F9D1C100CA23D8 /* fortiniTests.m */; };
+		6AD70B1E18F9D35600CA23D8 /* fortini.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B1D18F9D35600CA23D8 /* fortini.png */; };
+		6AD70B2518F9D48300CA23D8 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B1F18F9D48300CA23D8 /* monster.png */; };
+		6AD70B2618F9D48300CA23D8 /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B2018F9D48300CA23D8 /* monster@2x.png */; };
+		6AD70B2718F9D48300CA23D8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B2118F9D48300CA23D8 /* player.png */; };
+		6AD70B2818F9D48300CA23D8 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B2218F9D48300CA23D8 /* player@2x.png */; };
+		6AD70B2918F9D48300CA23D8 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B2318F9D48300CA23D8 /* projectile.png */; };
+		6AD70B2A18F9D48300CA23D8 /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B2418F9D48300CA23D8 /* projectile@2x.png */; };
+		6AD70B2C18F9DE7000CA23D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD70B2B18F9DE7000CA23D8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +68,16 @@
 		6AD70B0F18F9D1C100CA23D8 /* fortiniTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fortiniTests-Info.plist"; sourceTree = "<group>"; };
 		6AD70B1118F9D1C100CA23D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AD70B1318F9D1C100CA23D8 /* fortiniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fortiniTests.m; sourceTree = "<group>"; };
+		6AD70B1D18F9D35600CA23D8 /* fortini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fortini.png; sourceTree = "<group>"; };
+		6AD70B1F18F9D48300CA23D8 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		6AD70B2018F9D48300CA23D8 /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		6AD70B2118F9D48300CA23D8 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		6AD70B2218F9D48300CA23D8 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		6AD70B2318F9D48300CA23D8 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		6AD70B2418F9D48300CA23D8 /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		6AD70B2B18F9DE7000CA23D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6AD70B2D18F9E02000CA23D8 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		6AD70B2E18F9E02000CA23D8 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD70B2C18F9DE7000CA23D8 /* AVFoundation.framework in Frameworks */,
 				6AD70AE418F9D1C100CA23D8 /* CoreGraphics.framework in Frameworks */,
 				6AD70AE618F9D1C100CA23D8 /* UIKit.framework in Frameworks */,
 				6AD70AE818F9D1C100CA23D8 /* SpriteKit.framework in Frameworks */,
@@ -109,6 +128,7 @@
 		6AD70AE018F9D1C100CA23D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6AD70B2B18F9DE7000CA23D8 /* AVFoundation.framework */,
 				6AD70AE118F9D1C100CA23D8 /* Foundation.framework */,
 				6AD70AE318F9D1C100CA23D8 /* CoreGraphics.framework */,
 				6AD70AE518F9D1C100CA23D8 /* UIKit.framework */,
@@ -121,6 +141,15 @@
 		6AD70AE918F9D1C100CA23D8 /* fortini */ = {
 			isa = PBXGroup;
 			children = (
+				6AD70B2D18F9E02000CA23D8 /* background-music-aac.caf */,
+				6AD70B2E18F9E02000CA23D8 /* pew-pew-lei.caf */,
+				6AD70B1F18F9D48300CA23D8 /* monster.png */,
+				6AD70B2018F9D48300CA23D8 /* monster@2x.png */,
+				6AD70B2118F9D48300CA23D8 /* player.png */,
+				6AD70B2218F9D48300CA23D8 /* player@2x.png */,
+				6AD70B2318F9D48300CA23D8 /* projectile.png */,
+				6AD70B2418F9D48300CA23D8 /* projectile@2x.png */,
+				6AD70B1D18F9D35600CA23D8 /* fortini.png */,
 				6AD70AF218F9D1C100CA23D8 /* AppDelegate.h */,
 				6AD70AF318F9D1C100CA23D8 /* AppDelegate.m */,
 				6AD70AF518F9D1C100CA23D8 /* Main.storyboard */,
@@ -240,10 +269,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD70B2A18F9D48300CA23D8 /* projectile@2x.png in Resources */,
+				6AD70B1E18F9D35600CA23D8 /* fortini.png in Resources */,
 				6AD70AEE18F9D1C100CA23D8 /* InfoPlist.strings in Resources */,
+				6AD70B2918F9D48300CA23D8 /* projectile.png in Resources */,
+				6AD70B2718F9D48300CA23D8 /* player.png in Resources */,
+				6AD70B2518F9D48300CA23D8 /* monster.png in Resources */,
 				6AD70B0118F9D1C100CA23D8 /* Images.xcassets in Resources */,
 				6AD70AFF18F9D1C100CA23D8 /* Spaceship.png in Resources */,
 				6AD70AF718F9D1C100CA23D8 /* Main.storyboard in Resources */,
+				6AD70B2818F9D48300CA23D8 /* player@2x.png in Resources */,
+				6AD70B2618F9D48300CA23D8 /* monster@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
